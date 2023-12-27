@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="th-th" class="no-js">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	do website by typo3inspire.com
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2023 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+<base href="/">
+
+
+<meta name="generator" content="TYPO3 CMS" />
+<meta name="keywords" content="มหาวิทยาลัย,มหาวิทยาลัยแม่ฟ้าหลวง,แม่ฟ้าหลวง,มฟล,มฟล.,ม.แม่ฟ้าหลวง,วิจัย,สาธิต,โครงงาน,ประเทศไทย,สถาบันการศึกษา,คุณภาพ,เชียงราย" />
+<meta name="description" content="มหาวิทยาลัยแม่ฟ้าหลวงเป็นมหาวิทยาลัยขนาดกลางที่มีคุณภาพและมาตรฐานการศึกษาในระดับสากล มีความเป็นเลิศในศิลปะและวิทยาการสาขาต่างๆ เพื่อเป็นแหล่งผลิตและพัฒนาทรัพยากรมนุษย์ที่มีคุณภาพของประเทศ และอนุภูมิภาคลุ่มแม่น้ำโขง" />
+<meta name="robots" content="index,follow" />
+<meta name="author" content="Mae Fah Luang University" />
+<meta name="revisit-after" content="7 days" />
+<meta name="og:description" content="มหาวิทยาลัยแม่ฟ้าหลวงเป็นมหาวิทยาลัยขนาดกลางที่มีคุณภาพและมาตรฐานการศึกษาในระดับสากล มีความเป็นเลิศในศิลปะและวิทยาการสาขาต่างๆ เพื่อเป็นแหล่งผลิตและพัฒนาทรัพยากรมนุษย์ที่มีคุณภาพของประเทศ และอนุภูมิภาคลุ่มแม่น้ำโขง" />
+<meta name="og:type" content="website" />
+<meta name="og:site_name" content="&amp;#124; มหาวิทยาลัยแม่ฟ้าหลวง Mae Fah Luang University" />
+<meta name="og:image" content="{$og_image}" />
+<meta name="og:url" content="http://www.mfu.ac.th/mfu-landing-page.html" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="มหาวิทยาลัยแม่ฟ้าหลวงเป็นมหาวิทยาลัยขนาดกลางที่มีคุณภาพและมาตรฐานการศึกษาในระดับสากล มีความเป็นเลิศในศิลปะและวิทยาการสาขาต่างๆ เพื่อเป็นแหล่งผลิตและพัฒนาทรัพยากรมนุษย์ที่มีคุณภาพของประเทศ และอนุภูมิภาคลุ่มแม่น้ำโขง" />
+<meta name="twitter:image" content="{$og_image}" />
+<meta name="og:title" content="Welcome to MFU" />
+<meta name="twitter:title" content="Welcome to MFU" />
+
+
+
+
+
+
+
+
+
+<title>Welcome to MFU &#124; มหาวิทยาลัยแม่ฟ้าหลวง Mae Fah Luang University </title><meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+<link rel="icon" type="image/x-icon" href="fileadmin/MFUTemplateCenter/Assets/Images/Favicon/favicon-32x32.png"/>
+<link rel="shortcut type="image/x-icon" href="fileadmin/MFUTemplateCenter/Assets/Images/Favicon/favicon-32x32.png"/>
+<link rel="apple-touch-icon" sizes="57x57" href="fileadmin/MFUTemplateCenter/Assets/Images/Favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="fileadmin/MFUTemplateCenter/Assets/Images/Favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="fileadmin/MFUTemplateCenter/Assets/Images/Favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="fileadmin/MFUTemplateCenter/Assets/Images/Favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="fileadmin/MFUTemplateCenter/Assets/Images/Favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="fileadmin/MFUTemplateCenter/Assets/Images/Favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="fileadmin/MFUTemplateCenter/Assets/Images/Favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="fileadmin/MFUTemplateCenter/Assets/Images/Favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="fileadmin/MFUTemplateCenter/Assets/Images/Favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="fileadmin/MFUTemplateCenter/Assets/Images/Favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="fileadmin/MFUTemplateCenter/Assets/Images/Favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="fileadmin/MFUTemplateCenter/Assets/Images/Favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="fileadmin/MFUTemplateCenter/Assets/Images/Favicon/favicon-16x16.png">
+<link rel="manifest" href="fileadmin/MFUTemplateCenter/Assets/Images/Favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="fileadmin/MFUTemplateCenter/Assets/Images/Favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff"><link rel="stylesheet" type="text/css" href="fileadmin/vendor/boostrap4/css/bootstrap.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/vendor/fontawesome/css/all.css" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/assets/magnificpopup/magnific-popup.css" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/MFUTemplateCenter/Assets/Vendor/slick/slick.css" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/df_tabs/Resources/Public/StyleSheets/df_tabs.css" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/jpfaq/Resources/Public/Styles/jpfaq.css" media="all"><link rel="stylesheet" type="text/css" href="fileadmin/MFUTemplateCenter/Assets/Fonts/Athiti/fonts-athiti.css" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/MFUTemplateCenter/Assets/Fonts/Kanit/fonts-kanit.css" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/MFUTemplateCenter/Assets/Fonts/Pridi/fonts-pridi.css" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/vendor/boostrap3/css/bootstrap.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/MFUTemplateCenter/Assets/Css/styles.css" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/MFUTemplateCenter/Assets/Css/v11-custom.css" media="all">
+</head>
+<body id="pageid-505">
+<!--[if lt IE 8]>
+<p class="browsehappy">
+You are using an <strong>outdated</strong> browser.
+Please <a href="//browsehappy.com/">upgrade your browser</a> to improve your experience.
+</p>
+<![endif]-->
+<section id="maincontent" class="maincontent" role="maincontent">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 col-lg-12">
+				
+    
+
+            <div id="c29696" class="frame frame-default frame-type-html frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                
+
+    <div class="row">
+<div class="col-lg-12 hidden-xs hidden-sm">
+<br><center>
+<a href="https://info.mfu.ac.th">
+<img src="fileadmin/landing/info66/cover_info_66-2-01.png" width="75%" style="box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;" alt="ข้อมูลประชาสัมพันธ์สำหรับนักศึกษาใหม่ ปีการศึกษา 2566">
+</a>
+</center>
+
+<br><br>
+</div><!-- col-md-12 -->
+</div><!--row-->
+              
+<div class="row">
+<div class="col-xs-12 hidden-md hidden-lg">
+<div style="text-align:center">
+<a href="https://info.mfu.ac.th">
+<img src="fileadmin/landing/info66/cover_info_66-2-02.png" width="100%" alt="ข้อมูลประชาสัมพันธ์สำหรับนักศึกษาใหม่ ปีการศึกษา 2566">
+</a>
+<p> </p>
+</div>
+
+</div>
+</div>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+
+            <div id="c23387" class="frame frame-default frame-type-ce_columns4 frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+                
+    
+
+
+
+
+<div class="row justify-content-center">
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="ce-col col-sm-3">
+    
+        
+    
+
+            <div id="c23388" class="frame frame-default frame-type-image frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    <div class="ce-image ce-center ce-above">
+        
+
+    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+        
+            <div class="ce-outer">
+                <div class="ce-inner">
+        
+        
+            <div class="ce-row">
+                
+                    
+                        <div class="ce-column">
+                            
+
+        
+<figure class="image">
+    
+            <a href="/home.html">
+                
+<img class="image-embed-item" alt="เข้าสู่เว็บไซต์" src="fileadmin/_processed_/d/2/csm_Button_Enter_site_V2-01_a02da562dc.png" width="1200" height="140" loading="lazy" />
+
+
+            </a>
+        
+    
+</figure>
+
+
+    
+
+
+                        </div>
+                    
+                
+            </div>
+        
+        
+                </div>
+            </div>
+        
+    </div>
+
+
+
+    </div>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+        
+    
+
+            <div id="c23390" class="frame frame-default frame-type-image frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    <div class="ce-image ce-center ce-above">
+        
+
+    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+        
+            <div class="ce-outer">
+                <div class="ce-inner">
+        
+        
+            <div class="ce-row">
+                
+                    
+                        <div class="ce-column">
+                            
+
+        
+<figure class="image">
+    
+            <a href="http://mfu-thailand.cn/" target="_blank" rel="noreferrer">
+                
+<img class="image-embed-item" alt="Enter Chinese Website" src="fileadmin/_processed_/4/7/csm_Button_Enter_site_V2-11_665197a483.png" width="1200" height="140" loading="lazy" />
+
+
+            </a>
+        
+    
+</figure>
+
+
+    
+
+
+                        </div>
+                    
+                
+            </div>
+        
+        
+                </div>
+            </div>
+        
+    </div>
+
+
+
+    </div>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+        
+    
+
+            <div id="c29746" class="frame frame-default frame-type-image frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    <div class="ce-image ce-center ce-above">
+        
+
+    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+        
+            <div class="ce-outer">
+                <div class="ce-inner">
+        
+        
+            <div class="ce-row">
+                
+                    
+                        <div class="ce-column">
+                            
+
+        
+<figure class="image">
+    
+            <a href="https://info.mfu.ac.th" target="_blank">
+                
+<img class="image-embed-item" alt="ข้อมูลประชาสัมพันธ์สำหรับนักศึกษาใหม่" src="fileadmin/_processed_/c/6/csm_Button_Enter_site_V2_info_3497faeff8.png" width="1200" height="140" loading="lazy" />
+
+
+            </a>
+        
+    
+</figure>
+
+
+    
+
+
+                        </div>
+                    
+                
+            </div>
+        
+        
+                </div>
+            </div>
+        
+    </div>
+
+
+
+    </div>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+</div>
+
+
+    
+
+
+
+
+
+
+
+
+
+<div class="ce-col col-sm-3">
+    
+        
+    
+
+            <div id="c23389" class="frame frame-default frame-type-image frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    <div class="ce-image ce-center ce-above">
+        
+
+    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+        
+            <div class="ce-outer">
+                <div class="ce-inner">
+        
+        
+            <div class="ce-row">
+                
+                    
+                        <div class="ce-column">
+                            
+
+        
+<figure class="image">
+    
+            <a href="https://en.mfu.ac.th/home.html" target="_blank">
+                
+<img class="image-embed-item" alt="Enter English Website" src="fileadmin/_processed_/3/3/csm_Button_Enter_site_V2-02_9b6ec2a738.png" width="1200" height="140" loading="lazy" />
+
+
+            </a>
+        
+    
+</figure>
+
+
+    
+
+
+                        </div>
+                    
+                
+            </div>
+        
+        
+                </div>
+            </div>
+        
+    </div>
+
+
+
+    </div>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+        
+    
+
+            <div id="c26725" class="frame frame-default frame-type-image frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    <div class="ce-image ce-center ce-above">
+        
+
+    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+        
+            <div class="ce-outer">
+                <div class="ce-inner">
+        
+        
+            <div class="ce-row">
+                
+                    
+                        <div class="ce-column">
+                            
+
+        
+<figure class="image">
+    
+            <a href="https://admission.mfu.ac.th/admission-home.html" target="_blank">
+                
+<img class="image-embed-item" alt="Admission Website" src="fileadmin/_processed_/7/7/csm_btnTCAS66_adc1d9c609.png" width="1200" height="140" loading="lazy" />
+
+
+            </a>
+        
+    
+</figure>
+
+
+    
+
+
+                        </div>
+                    
+                
+            </div>
+        
+        
+                </div>
+            </div>
+        
+    </div>
+
+
+
+    </div>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+</div>
+
+
+    
+</div>
+
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+
+            <div id="c23393" class="frame frame-default frame-type-html frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                
+
+    <p> </p>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+ 
+			</div> 
+		</div>
+	</div> 
+</section><script src="fileadmin/vendor/jquery1.12.4/jquery-1.12.4.min.js" type="text/javascript"></script>
+<script src="fileadmin/vendor/jqueryui1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+<script src="fileadmin/vendor/boostrap4/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+<script src="fileadmin/vendor/bxslider/jquery.bxslider.js" type="text/javascript"></script>
+<script src="fileadmin/vendor/magnific/jquery.magnific-popup.min.js" type="text/javascript"></script>
+<script src="fileadmin/MFUTemplateCenter/Assets/Vendor/slick/slick.min.js" type="text/javascript"></script>
+<script src="typo3conf/ext/df_tabs/Resources/Public/JavaScript/tabs.js" type="text/javascript"></script>
+<script src="typo3conf/ext/jpfaq/Resources/Public/Javascript/jpFaq.js" type="text/javascript"></script>
+<script src="fileadmin/MFUTemplateCenter/Assets/Js/js-custom-2022.js" type="text/javascript"></script><script src="fileadmin/vendor/cookies/libs/jquery.cookie-consent.min.js"></script>
+<script>
+$.cookieConsent({
+	testing: false,
+	consentTime: 30,
+	message: '<p>&nbsp;</p><p>เว็บไซต์มหาวิทยาลัยแม่ฟ้าหลวงใช้คุกกี้เพื่อเพิ่มประสบการณ์และความพึงพอใจในการใช้งานเว็บไซต์<br/>หากคุณกด “Accept” หรือใช้งานเว็บไซต์ของเราต่อ ถือว่าคุณยินยอมให้มีการใช้งานคุกกี้<br/><a href="https://pdpa.mfu.ac.th/pdpa-6250.html" target="_blank"><u><strong>ประกาศเกี่ยวกับความเป็นส่วนตัว</strong></u></a>&nbsp;<a href="https://pdpa.mfu.ac.th/papa-6240/pdpa-6251.html" target="_blank"><u><strong>นโยบายการใช้คุกกี้</strong></u></a></p>',
+	style: "position: fixed; width:100%; background-color:#e5e5e5; bottom:0; padding:5px 0; z-index:9999; font-size:16px;"
+});
+</script><script src="fileadmin/templates/assets/js/jquery.gcal_flow.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+jQuery(function() {
+    //var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    var months = ['ม.ค.','ก.พ.','มี.ค.','เม.ย.','พ.ค.','มิ.ย.','ก.ค.','ส.ค.','ก.ย.','ต.ค.','พ.ย.','ธ.ค.'];
+    jQuery('#gcf-custom-template').gCalFlow({
+      calid: 'mfu.ac.th_u1a3hqv9v7836iipn6r0gugn3g%40group.calendar.google.com',
+      maxitem: 5,
+      mode: 'upcoming',
+      daterange_formatter: function (start_date, end_date, allday_p) {
+        function pad(n) { return n < 10 ? "0"+n : n; }
+        return '<span class="day">' + pad(start_date.getDate()) + '</span><span class="month">' + months[start_date.getMonth()] + '</span>';
+      }      
+    });
+});
+</script><script src="fileadmin/MFUTemplateCenter/Assets/Vendor/accessible/jquery.cookie.js"></script>
+<script src="fileadmin/MFUTemplateCenter/Assets/Vendor/accessible/jquery.accessible.js"></script>
+
+
+
+
+</body>
+</html>
